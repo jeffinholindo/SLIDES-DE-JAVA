@@ -1,0 +1,30 @@
+
+public class Operadores {
+
+	public static void main(String[] args) {
+		
+		//OPERADORES UNÁRIOS
+		
+		//incremento e decremento ++ e --
+			int a = 0;		
+			int b = a++;	//incrementado depois de atribuir
+			int c = ++a;	//incrementado antes de atribuir
+			b = a--;		//decrementado depois de atribuir
+			c = --a;		//decrementado depois de atribuir
+
+		//Mais e Menos Unários: + e -
+			int x = +3;		//x recebe o positivo 3
+			x = -x;			//x recebe -3, neste caso
+					
+		//Inversão de bits: ~
+			int i = ~1;		// 1 = -2 (os bits foram invertidos)
+			
+		//Complementar o booleano: !
+			boolean falsidade = !(true); //inverte o valor booleano
+			
+		//Conversçao de Tipos: (tipo)
+			double d = 1.99f;
+			int i = (int) d; //converte de double p/ int (perda de precisão)
+	}
+
+}
